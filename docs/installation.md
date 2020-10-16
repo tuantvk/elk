@@ -51,3 +51,7 @@ module.exports = {
   setupFilesAfterEnv: ["@testing-library/jest-native/extend-expect"]
 };
 ```
+
+:::tip Source
+- [React Native Testing Library - Getting Started](https://callstack.github.io/react-native-testing-library/docs/getting-started)
+:::
