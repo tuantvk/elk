@@ -8,6 +8,7 @@ module.exports = {
   organizationName: 'tuantvk',
   projectName: 'elk',
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'Elk',
       logo: {

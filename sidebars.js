@@ -1,5 +1,7 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['installation'],
+    'Getting Started': ['installation', 'configuration'],
+    'Guides': ['async-storage', 'react-navigation-v5'],
+    'Examples': ['text'],
   },
 };
