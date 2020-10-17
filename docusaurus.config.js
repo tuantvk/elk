@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Elk',
   tagline: 'Documents for React Native testing',
-  url: '/',
+  url: 'https://elk.netlify.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
