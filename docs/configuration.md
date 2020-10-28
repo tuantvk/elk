@@ -12,3 +12,11 @@ Consider running Jest with `--detectOpenHandles`
   "test": "jest --detectOpenHandles",
 }
 ```
+
+If you need to update our snapshot artifacts. You can run Jest with a flag that will tell it to re-generate snapshots:
+
+```json
+"scripts": {
+  "test": "jest --updateSnapshot",
+}
+```
