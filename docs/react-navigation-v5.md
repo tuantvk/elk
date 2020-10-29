@@ -54,6 +54,6 @@ module.exports = {
 
 Make sure that the path to the file in `setupFiles` is correct. Jest will run these files before running your tests, so it's the best place to put your global mocks.
 
-:::tip Source
+:::note Source
 - [React Navigation - Testing with Jest](https://reactnavigation.org/docs/testing)
 :::

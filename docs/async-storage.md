@@ -20,6 +20,6 @@ import mockAs from '@react-native-community/async-storage/jest/async-storage-moc
 jest.mock('@react-native-community/async-storage', () => mockAs);
 ```
 
-:::tip Source
+:::note Source
 - [Async Storage - Jest integration](https://react-native-async-storage.github.io/async-storage/docs/advanced/jest/)
 :::

@@ -10,6 +10,7 @@ Example for `Text` testing. Use API **render** of [@testing-library/react-native
 ### Text component
 
 ```js
+// Text.js
 import React from 'react';
 import { Text } from 'react-native';
 
@@ -32,6 +33,7 @@ export default ({ style, color, bold, children, ...rest }) => (
 ### Renders Text
 
 ```js
+// Text.test.js
 import { render } from '@testing-library/react-native';
 
 it('renders Text with children', () => {
@@ -62,7 +64,7 @@ it('renders Text prop style', () => {
   expect(queryByTestId('textID')).toHaveStyle({ color: 'red' });
 });
 
-it('renders Text prop style', () => {
+it('renders Text display font bold', () => {
   const { queryByTestId } = render(
     <Text testID="textID" bold>
       {`Hello`}

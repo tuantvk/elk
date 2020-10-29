@@ -52,6 +52,6 @@ module.exports = {
 };
 ```
 
-:::tip Source
+:::note Source
 - [React Native Testing Library - Getting Started](https://callstack.github.io/react-native-testing-library/docs/getting-started)
 :::

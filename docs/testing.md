@@ -33,6 +33,6 @@ For testing React components, there are two things you may want to test:
 
 ![Component Tests](/img/p_tests-component.svg)
 
-:::tip Source
+:::note Source
 - [React Native Testing Overview](https://reactnative.dev/docs/testing-overview)
 :::
