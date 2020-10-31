@@ -33,6 +33,11 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} tuantvk, Inc. Built with Docusaurus.`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+      defaultLanguage: 'jsx',
+    },
   },
   presets: [
     [
