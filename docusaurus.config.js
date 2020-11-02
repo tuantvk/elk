@@ -24,14 +24,43 @@ module.exports = {
         },
         {
           href: 'https://github.com/tuantvk/elk',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
     footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} tuantvk, Inc. Built with Docusaurus.`,
+      logo: { src: 'img/logo.svg', alt: 'Build Tracker' },
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Getting started',
+              to: 'docs',
+            },
+            {
+              label: 'Testing',
+              to: 'docs/testing',
+            },
+          ],
+        },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'Author Blog',
+              href: 'http://tuantvk.com',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/tuantvk',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} tuantvk, built with Docusaurus.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
