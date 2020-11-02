@@ -74,6 +74,7 @@ it('check store user', () => {
 ### Renders UserInfo
 
 ```js
+import { render } from '@testing-library/react-native';
 import UserInfo from './UserInfo';
 
 it('renders UserInfo', () => {

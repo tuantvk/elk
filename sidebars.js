@@ -11,6 +11,7 @@ module.exports = {
     ],
     'Examples': [
       'testing',
+      'api-component',
       'button',
       'flatlist',
       'mobx-component',
