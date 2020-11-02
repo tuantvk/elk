@@ -13,6 +13,7 @@ module.exports = {
       'testing',
       'button',
       'flatlist',
+      'mobx-component',
       'text',
       'textinput'
     ],
